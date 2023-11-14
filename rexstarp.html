@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+        background: url(a.jpeg);
+        background-size: 100vmax;
+        background-position: center;
+        background-position-y: center;
+        background-size: cover;
+      
+      }
+    </style>
+  </head>
+  <!--styling the body and inserting an image-->
+  <body>
+    <h1 style="font-size: 50px;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">NATE UNIVERSITY</h1>
+    <br><br> 
+    <!--navigation bar input-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-size: 33px; font-family: sans-serif; background:transparent;  ">
+      <div class="container-fluid" style="background: none;">
+        <a class="navbar-brand" href="#" style="font-size: 33px; font-family: sans-serif;">COURSES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SUPPORT
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Registration</a></li>
+                <li><a class="dropdown-item" href="#">Faculties</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">E-resources</a></li>
+              </ul>
+             </li>
+              <li class="nav-item">
+            </li> 
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">SEARCH</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--words appearing like an advert-->
+    <Marquee class="flt">WELCOME  TO  NATE  UNIVERSITY  A  PLACE  OF  GREAT  EXCELLENCE.  FEEL  THE  LOVE  AND  UNITY,  THE  ENERGY  THAT  WILL  ENABLE  YOU  ATTAIN  YOUR  GOALS.</Marquee>
+    <br><br><br>
+    <!--student log in form-->
+    <div class="wap">
+      <div clasms="form-login">              
+          <h2>LOGIN</h2>
+          <form action="#">
+              <div class="input-box">
+                <input type="email" required>
+                <label for="EMAIL">EMAIL</label>
+              </div>
+              <div class="input-box">
+                  <input type="password" required>  
+                  <label for="PASSWORD">PASSWORD</label>
+                </div>
+                <div class="remember-forgot">
+                  <input type="checkbox">
+                  <label for="remember" style="justify-content: space-between;">
+                      REMEMBER ME</label>
+                      <a href="#">FORGOT PASSWORD</a>
+                     </div>
+                    <button class="but">LOG IN</button>
+                <div class="login-register">
+                  <p>DON'T HAVE A STUDENT ACCOUNT <br><a href="nate1.html" class="register-link">REGISTER</a></p>
+                </div>
+          </form>
+      </div>
+    </div>
+    <br>
+
+    <!--my body/ about the university-->
+    <div class="content">
+      <center><h1>WELCOME TO NATE UNIVERSITY</h1></center>
+    </div>
+
+    <!--video iput to the right-->
+    <div class="video">
+      <video autoplay loop muted src="video.mp4"
+      width="600" height="460" style="margin-left:70%;"></video>
+    </div>
+
+    <!--video to the left-->
+    <div class="video">
+      <video autoplay loop muted  src="video2.mp4"
+      width="600" height="460"></video>
+    </div>
+
+    <!--card input & enrolments-->
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="size: 20%;">
+      <div class="col">
+        <div class="card">
+          <img src="enroll.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><button class="erol"><a href="#">ENROLL HERE</a></button></h5>
+            <p class="card-text">NEW TO NATE UNIVERSITY!,<br>CLICK THE ENROLL BUTTON AND JOIN US AT OUR WONDERFUL UNIVERSITY. <br>UNCOVER YOUR ABILITIES WITH US 
+            HERE AT NATE UNIVERSITY THE BEGINNING OF EDUCATION. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="bachelors.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><button class="bch"><a href="#">APPLY FOR YOUR BACHELORS HERE</a></button></h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="masters.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><button class="mst"><a href="#">UPGRADE TO MASTERS</a></button></h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="phd.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><button class="pd"><a href="#">ENROLL FOR A PHD</a></button></h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div><br>
+    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

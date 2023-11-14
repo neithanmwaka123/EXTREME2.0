@@ -1,0 +1,342 @@
+/*.video{
+    align-items: right;
+    max-width: 60%;
+    min-height: 50%;
+    object-fit: cover;
+    padding-right:150px ;
+    right: 16px;
+    margin-right: 40%;
+    right: 10px;
+    z-index: 2;
+    margin-top: -10px;
+    box-sizing: border-box;
+    
+}*/
+    
+        
+    
+    .wap{
+        margin-left: 40%;
+        margin-bottom: 5%;
+        position: relative;
+        width: 400px;
+        height: 440px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.993);
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 30px rgba(0,0,0,.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: height .2s ease;
+    
+    } 
+    .wap .active {
+        height: 520px;
+
+
+    }
+    .wap .form.login{
+        width: 100%;
+        padding: 40px;
+    }
+    .wap .form.register{
+        position: absolute;
+        transform: translateX(400px);
+    }
+    .form h2{
+        font-size: 2em;
+        color: #162938;
+        text-align: center;
+    }
+    .input-box{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-bottom: 2px solid #162938;
+        margin: 30px 0;
+
+    }
+    .input-box label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1em;
+        color: #0f1214;
+        font-weight: 500;
+        pointer-events: none;
+        transition: .6s;
+
+
+    }
+    .input-box input:focus~label,
+    .input-box input:valid~label {
+        top: -5px;
+    }
+
+
+
+
+    .input-box input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #162938;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 0 35px 0 5px;
+    }
+    .input-box .icon{
+        position: absolute;
+        right: 8px;
+        color: #162938;
+        line-height: 57px;
+        font-size: 1.2em;
+    }
+    .remember-forgot{
+        margin: -15px 0 15px;
+        display: flex;
+        justify-content:space-between;
+        color: #070808;
+        font-weight: 500;
+        font-size: .9em;
+    }
+        
+    .remember-forgot label input{
+        accent-color: #162938;
+        margin-right: 3PX;
+    }
+
+    .remember-forgot a{
+        color: #162938;
+        text-decoration: none;
+    }  
+
+    .remember-forgot a:hover{
+        text-decoration: underline;
+    }
+    .but{
+        width: 100%;
+        height: 45px;
+        background: #020a10;
+        border: none;
+        border-radius: 6px;
+        font-size:1em ;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        
+        margin-left: 4px;
+
+    }
+    .login-register{
+        justify-content: space-between 5px;
+        font-size: .9em;
+        color: #000101;
+        text-align: center;
+        font-weight: 500;
+        margin: 25px o 10px;
+    }
+    .login-register p a{
+        color: #000101;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .login-register p a:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+    .erol{ /*the enroll card design*/
+        border: none;
+        background: none;
+        
+    }
+    
+    .erol a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #070202;
+        font-weight: 600;
+        transition: .5s;
+       
+    }
+    .erol a::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .5s;
+    }
+    .erol :hover{
+        background-color: #b6bec4;
+
+    }
+    .erol :hover::after{
+        transform-origin: left;
+        transform: scaleX(1);
+     }
+
+     .bch{/*the bachelors card design*/
+        border: none;
+        background: none;
+        
+    }
+    
+    .bch a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #070202;
+        font-weight: 600;
+        transition: .5s;
+       
+    }
+    .bch a::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .5s;
+    }
+    .bch :hover{
+        background-color: #b6bec4;
+
+    }
+    .bch :hover::after{
+        transform-origin: left;
+        transform: scaleX(1);
+     }
+     
+     
+     .mst{   /*the masters card design*/
+        border: none;
+        background: none;
+        
+    }
+    
+    .mst a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #070202;
+        font-weight: 600;
+        transition: .5s;
+       
+    }
+    .mst a::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .5s;
+    }
+    .mst :hover{
+        background-color: #b6bec4;
+
+    }
+    .mst :hover::after{
+        transform-origin: left;
+        transform: scaleX(1);
+     }
+     
+     .pd{      /*the phd design*/
+        border: none;
+        background: none;
+        
+    }
+    
+    .pd a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #070202;
+        font-weight: 600;
+        transition: .5s;
+       
+    }
+    .pd a::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .5s;
+    }
+    .pd :hover{
+        background-color: #b6bec4;
+
+    }
+    .pd :hover::after{
+        transform-origin: left;
+        transform: scaleX(1);
+     }
+     .flt{
+        font-weight: 500;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        transition-duration: 70s;
+        transition-property: inherit;
+
+    }
+    .wap2{
+        margin-left: 40%;
+        margin-bottom: 5%;
+        position: relative;
+        width: 400px;
+        height: 700px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.993);
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 30px rgba(0,0,0,.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: height .2s ease;
+    
+    } 
+    .wap2 .active {
+        height: 520px;
+
+
+    }
+    .wap2 .form.login{
+        width: 100%;
+        padding: 40px;
+    }
+    .wap2 .form.register{
+        position: absolute;
+        transform: translateX(400px);
+    }
+     
